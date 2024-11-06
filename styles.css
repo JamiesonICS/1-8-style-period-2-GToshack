@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(23, 23, 56);
+    color: rgb(82, 107, 133);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+div.container {
+    text-align: justify;
+    width:90vw;
+    margin: auto;
+
+    > img {
+    float: right;
+    padding-left: 0.5vmax;
+    width: 30vw;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color:rgb(92, 195, 230);
+}
+
+a:visited {
+    color: rgb(48, 111, 133);
+}
+
+a:hover {
+    color: rgb(255, 244, 149);
+}
+
+.P2 {
+    > h1 {
+        font-size: 9vw;
+        margin-bottom: 0;
+    }
+
+    > h2 {
+        margin-top: 0;
+        margin-bottom: 5vmin;
+        font-size: 5vw;
+    }
+
+    p {
+        font-size: 3vmin;
+    }
+}
+
+
